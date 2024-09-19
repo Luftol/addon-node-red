@@ -1,8 +1,8 @@
 ---
 build_from:
-  aarch64: docker.io/node:22.9.0-alpine3.20
-  amd64: docker.io/node:22.9.0-alpine3.20
-  armv7: docker.io/node:22.9.0-alpine3.20
+  aarch64: node:22-alpine
+  amd64: node:22-alpine
+  armv7: node:22-alpine
 codenotary:
   base_image: codenotary@frenck.dev
   signer: codenotary@frenck.dev
