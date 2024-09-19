@@ -16,9 +16,9 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN \
     apk add --no-cache --virtual .build-dependencies \
         build-base=0.5-r3 \
-        linux-headers=6.5-r0 \
-        py3-pip=23.3.1-r0 \
-        python3-dev=3.11.10-r0 \
+        linux-headers-6.6-r0 \
+        py3-pip-24.0-r2 \
+        python3-dev-3.12.6-r0 \
     \
     && apk add --no-cache \
         git=2.43.5-r0 \
